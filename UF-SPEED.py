@@ -72,6 +72,7 @@ def notice():
 
 	runtxt("\n\033[0;97m  Free 2009 cloning Tool For Free Aproval Join Group ")
 	os.system("xdg-open https://facebook.com/groups/unique.force.official.group.bd/")
+
 plist = (platform.uname())[2]
 basex = plist
 basex1 = basex.encode('ascii')
@@ -79,6 +80,7 @@ basex2 = base64.b64encode(basex1)
 basex3 = basex2.decode('ascii')
 base4 = (basex3).upper()
 basesplit = base4.replace('=', 'X').replace('A', '3').replace('B', '9').replace('C', '7').replace('D', '1').replace('E', '4').replace('M', '2').replace('L', '6').replace('F', '8').replace('N', 'E').replace('T', '8')
+
 class Main:
 	def __init__(self):
 		self.id = []
@@ -125,7 +127,8 @@ class Main:
 		print("%s [%s1%s]%s CRACK RANDOM FB ID 2009-11 {JUST NOW} %s(Free Trail)"%(G,R,G,Y,B))
 		tanya = input("    \033[0;97m(=×>)\033[0;97m CHOOSE : 1")
 		print("───────────────────────────────────────────────────────× ")
-		if tanya in ["", " "]:
+		
+if tanya in ["", " "]:
 			Main()
 		elif tanya in ["1", "01"]:
 			if basesplit in plr:
